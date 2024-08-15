@@ -2,8 +2,9 @@
   "name": "hexlet/code",
   "autoload": {
     "psr-4": {
-      "Hexlet\\Code\\": "src/"
-    }
+      "Hexlet\\": "src"
+    },
+    "files": ["src/Downloader/Downloader.php"]
   },
   "autoload-dev": {
     "psr-4": {
