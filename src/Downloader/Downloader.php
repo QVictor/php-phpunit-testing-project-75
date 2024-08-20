@@ -39,5 +39,6 @@ function getUrlWithoutScheme($url)
 
 function changeSymbolsOnDash($url)
 {
-    return preg_replace('/[^a-zA-Z0-9-]/', '-', $url);;
+    return preg_replace('/[^a-zA-Z0-9-]/', '-', $url);
+    ;
 }
